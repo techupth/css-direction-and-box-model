@@ -1,1 +1,44 @@
 /* Start coding here */
+html {
+    font-size: 16px;
+}
+.travelblog {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-family: Sarabun;
+}
+header {
+  background-color: lightslategray;
+  font-size: 2rem;
+  padding-left:30px ;
+}
+.cafe {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid darkblue;
+  width: 536px;
+  height: 321px;
+  padding: 0px 0px 0px 25px;
+}
+.cafe .topic {
+    font-size: 24px;
+}
+.visit .topic {
+    font-size: 24px;
+}
+.visit {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid darkblue;
+  width: 536px;
+  height: 321px;
+  padding: 0px 0px 0px 25px;
+}
+.content {
+    font-size: 1rem;
+}
+img {
+    width: 404px;
+    
+}
