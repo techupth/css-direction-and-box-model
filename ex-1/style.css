@@ -1,4 +1,27 @@
 body {
   display: flex;
   flex-direction: column;
+  gap: 20px;
+}
+
+h1 {
+  display: flex;
+  background-color: rgb(102, 102, 236);
+  padding: 25px;
+}
+
+.place-1 {
+    display: flex; 
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    border: solid 2px;
+}
+
+.place-2 {
+    display: flex; 
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    border: solid 2px;
 }
