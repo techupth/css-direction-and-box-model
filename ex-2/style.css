@@ -1,1 +1,29 @@
-/* Start coding here */
+* {
+  box-sizing: border-box;
+}
+
+.container1 {
+  background-color: yellow;
+  height: 100vh;
+}
+
+p {
+  font-size: 72px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.box1 {
+  border: solid lightgray 16px;
+  height: 100%;
+}
+
+.box2 {
+  border: solid black 16px;
+  height: 100%;
+}
+
+.box3 {
+  border: solid crimson 24px;
+  height: 100%;
+}
