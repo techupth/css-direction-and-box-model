@@ -1,1 +1,39 @@
-/* Start coding here */
+/* Global settings */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Body setup */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightgray;
+}
+
+/* Container settings */
+.container-1 {
+  width: 100vw; /* Account for margins and border */
+  height: 100vh; /* Account for margins and border */
+  border: 16px solid black;
+  margin: 16px;
+  background-color: crimson;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+/* Heading settings */
+h1 {
+  color: black;
+  background-color: khaki;
+  padding: 30px;
+  font-size: 72px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}

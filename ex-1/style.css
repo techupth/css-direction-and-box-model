@@ -1,1 +1,46 @@
-/* Start coding here */
+/* Global settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Sarabun', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
+
+/* Outer Layer: Lightgrey */
+.outer-lightgrey {
+  border: 16px solid lightgrey;
+  padding: 16px;
+  display: inline-block;
+}
+
+/* Second Layer: Black */
+.outer-black {
+  border: 16px solid black;
+  padding: 16px;
+}
+
+/* Third Layer: Crimson */
+.outer-crimson {
+  border: 24px solid crimson;
+  padding: 24px;
+}
+
+/* Fourth Layer: Khaki */
+.outer-khaki {
+  border: 16px solid khaki;
+  padding: 30px; /* Space around the "TechUp" text */
+  text-align: center;
+}
+
+h1 {
+  font-size: 72px;
+  margin: 0;
+}
